@@ -9,8 +9,11 @@ h1,
 h3 {
   text-align: center;
   margin-top: 0px;
+  text-shadow: 3px 3px 5px orange;
 }
-
+p{
+  text-shadow: 3px 3px 5px #bd8cbf;
+}
 h1 {
   margin-bottom: 15px;
 }
@@ -25,13 +28,24 @@ h3 {
 
 #author {
   padding: 2%;
+  margin:4%;
   min-height: 55vh;
   max-height: 55vh;
+  box-shadow:0px 0px 15px #bd8cbf,1px 0px 5px grey;
+}
+#author:hover{
+  box-shadow:0px 0px 15px green,1px 0px 5px grey;
+  border-radius:20px;
 }
 #wrap {
   min-height: 55vh;
 }
-
+#author:hover img{
+	box-shadow:5px 5px 15px green,1px 0px 5px grey;
+}
+#author:hover .caption{
+	text-shadow: 0px 0px 10px orange;
+}
 body {
   height: calc(100vh - 8em);
   padding: 4em;
