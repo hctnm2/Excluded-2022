@@ -110,8 +110,6 @@ It's very easy. You don't need to be an expert in coding and programming. Here a
 7. **Enjoy and welcome to Hacktoberfest 2022 and Keep Contributing :)**
 
 
-## Output
-![Alt text](/src/images/output.jpeg)
 ## 🔥 What will happen after my contribution?
 
 I have created a simple page to display all contributors list [here](https://hctnm2.github.io/hacktoberfest-2022), your name should appear shortly after the pull request is merged.
