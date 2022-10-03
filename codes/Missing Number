@@ -1,0 +1,16 @@
+// This Java program is to find the missing number in an array from range 0 to n 
+
+class Solution {
+    public int missingNumber(int[] arr) {
+        int len=arr.length;
+        int sum=0;
+        int sum1=0;
+        sum=len*(len+1)/2;
+        for(int i=0; i<len; i++){
+            sum1=sum1+arr[i];
+        }
+        return sum-sum1;
+    }
+}
+
+// test case failed [2,0]
