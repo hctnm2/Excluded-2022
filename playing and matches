@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int T;
+	cin>>T;
+	while(T--){
+	    int a,b,sum = 0;
+	    cin>>a>>b;
+	    int c = a+b;
+	    int arr[10] = {6,2,5,5,4,5,6,3,7,6};
+	    int rem;
+	   while(c>0){
+	       rem = c%10;
+	       c = c/10;
+	       sum+=arr[rem];
+	   }
+	    cout<<sum<<endl;
+	}
+	return 0;
+}
