@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main(void) {
+	
+	int t; 
+	scanf("%d",&t);
+	while(t--){  
+	    int n,r=0; 
+	    scanf("%d",&n);  
+	    int a=n;
+	    while(n>0)
+	    {  
+	        r=(n%10)+r*10; 
+	        n/=10;
+	    } 
+	    if(r==a) 
+	      printf("wins\n"); 
+	    else 
+	      printf("loses\n"); 
+	  //  printf("%d %d\n",r,n);
+	}
+	return 0;
+}
